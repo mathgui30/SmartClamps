@@ -1,0 +1,119 @@
+.container-procedure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    width: 90%;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header-procedure {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.title {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.line {
+    width: 100%;
+    border-top: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.procedure-container {
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    /* Espaço entre o retângulo e as fotos */
+    box-sizing: border-box;
+    /* Incluir padding e borda na largura total */
+}
+
+.procedure-info {
+    margin-bottom: 20px;
+}
+
+.procedure-info h2 {
+    margin-bottom: 10px;
+}
+
+.procedure-info p {
+    margin: 0 0 10px 0;
+}
+
+.photos-container {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.photo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0%;
+    margin: 0 10px;
+}
+
+.photo {
+    width: 75%;
+    height: 50%;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    /* Espaçamento entre a foto e o texto */
+}
+
+.text-container {
+    text-align: left;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 10px;
+    /* Espaço entre os botões e a linha */
+}
+
+.blue-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    /* Espaçamento entre a foto e o botão */
+    background-color: #5271FF;
+    color: white;
+}
+
+.green-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    /* Espaçamento entre a foto e o botão */
+    background-color: green;
+    color: white;
+}
+
+.smartclamps-text {
+    margin-top: 10px;
+    /* Espaço entre a linha e o texto */
+    font-style: italic;
+}

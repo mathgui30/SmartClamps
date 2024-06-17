@@ -1,0 +1,55 @@
+.container-prob-regis {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 80%; /* Tornando o container responsivo */
+    max-width: 600px; /* Limitando a largura máxima */
+}
+
+.header-prob-regis {
+    margin-bottom: 20px;
+}
+
+.logo-prob-reg img {
+    max-width: 100%; /* Fazendo a imagem responsiva */
+    height: auto; /* Mantendo a proporção */
+    box-shadow: none; /* Removendo sombra anterior */
+    border: none; /* Removendo bordas anteriores */
+    padding: 0; /* Removendo padding anterior */
+}
+
+.additional-image {
+    max-width: 100%; /* Fazendo a imagem adicional responsiva */
+    height: auto; /* Mantendo a proporção */
+}
+
+.message {
+    margin-top: 20px;
+}
+
+.checkmark img {
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin: auto;
+    border-radius: 50%; /* Transformando em círculo */
+    background-color: #FF4136; /* Fundo vermelho */
+    padding: 10px; /* Espaço para o círculo */
+}
+
+.button-prob-reg {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #FF4136; /* Fundo vermelho */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-prob-reg:hover {
+    background-color: #E82C0C; /* Fundo vermelho mais escuro */
+}

@@ -1,0 +1,143 @@
+.header-container-home {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.logo-icon-container-home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  /* border-bottom: 1px solid #314290; */
+}
+
+.lineHome {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  height: 1px; 
+  background-color: #314290;
+}
+
+.logo-home {
+  display: flex;
+  position: relative;
+  max-width: 15%;
+  margin: 1%;
+}
+
+.profile-icon-home {
+  display: flex;
+  position: relative;
+  font-size: 100% ;
+  max-width: 10%;
+  height: 50%;
+  margin-right: 5.5%;
+  cursor: pointer;
+}
+
+.logout-button {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 1%;
+  border-radius: 15px;
+  width: 10%;
+  font-size: 16px;
+  left: 88%;
+  /* transform: translateY(210%); */
+  cursor: pointer;
+  background-color: #5271FF !important;
+  color: white;
+  transition: background-color 0.3s ease;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+  
+.buttons-container {
+  display: flex;
+  /* position: 0%; */
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  width: 30%;
+}
+
+.screen-instructions {
+  color: #7B7B7B;
+}
+
+.button-home {
+  background-color: #5271FF !important;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 15px;
+  width: 85%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  margin-top: 40px;
+  font-size: 16px;
+}
+
+.support-link {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  position: relative;
+  width: 30%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.link-underline-home {
+  padding-left: 1%;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.link-underline-home:hover {
+  text-decoration: underline;
+}
+
+.footer-home {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  width: 50%;
+  padding-top: 2%;
+  padding-left: 10%;
+  padding-right: 10%;
+  border-top: 1px solid #7B7B7B ;
+  margin-top: 8%;
+  font-size: 16px;
+  text-align: center;
+}
+
+.span-home{
+  display: flex;
+  position: relative;
+  justify-content: center;
+  padding-top: 1%;
+}
+
+.circle-container-home {
+  top: 30%;
+  position: absolute;
+  left: 0;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.circle-container-2-home {
+  top: 60%;
+  position: absolute;
+  right: 0;
+  transform: translateY(-50%);
+  z-index: 1;
+  
+}

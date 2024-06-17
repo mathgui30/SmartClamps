@@ -1,0 +1,47 @@
+.apresentacao-container-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.imagem-container-logo,
+.imagem-container-loading {
+  width: 100%;
+  max-width: 490px; /* Limita o tamanho máximo das imagens */
+  margin-bottom: 20px; /* Espaçamento entre as imagens */
+}
+
+.imagem {
+  width: 85%;
+  height: auto;
+}
+
+.imagem2 {
+  width: 10%;
+  height: auto;
+  animation: spin 5s linear infinite;
+}
+
+@media (max-width: 600px) {
+  .imagem-container-logo,
+  .imagem-container-loading {
+    max-width: 200px; /* Ajusta o tamanho das imagens em telas menores */
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.imagem-container-loading .imagem2 {
+  animation: spin 5s linear infinite;
+}

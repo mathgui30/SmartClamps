@@ -1,0 +1,126 @@
+.container-profile {
+    position: relative;
+    width: 75%;
+    margin: 0%;
+    padding: 4%;
+    background-color: #fff;
+    border-radius: 3%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container-profile {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    margin-top: 1%;
+}
+
+.profile-fields {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 75%;
+    padding-right: 10%;
+}
+
+.form-group-profile {
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+
+}
+
+.campoComposto1 {
+    max-width: 45%;
+    margin-left: 0%;
+}
+
+.campoComposto2 {
+    max-width: 45%;
+    margin-left: 0%;
+    margin-top: 0%;
+}
+
+input #email, #cpf  {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.form-group-profile label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    flex: 0 0 30%;
+}
+
+.form-group-profile input[type="text"],
+.form-group-profile input[type="email"],
+.form-group-profile input[type="number"],
+.form-group-profile select,
+.form-group-profile textarea {
+    flex: 1;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-right: 10px; /* Adicionando margem entre os campos */
+}
+
+.form-group-profile input[type="text"]:first-child {
+    margin-right: 5px; /* Espaço menor entre os campos de texto */
+}
+
+.form-group-profile select {
+    width: calc(50% - 10px);
+}
+
+.form-group-profile textarea {
+    width: 100%;
+    resize: vertical;
+}
+
+.form-group-profile button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #5271FF;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 8px; /* Ajustando a margem superior */
+}
+
+.photo-upload-profile {
+    flex: 1 1 auto; /* Tornando o elemento flexível */
+    margin-right: 10px; /* Adicionando margem entre os elementos */
+    position: relative; /* Adicionando posição relativa para posicionar o botão absolutamente */
+}
+
+.photo-upload-profile input[type="file"] {
+    display: none;
+}
+
+.photo-upload-profile label {
+    display: inline-block;
+    padding: 10px;
+    background-color: #fff; /* Cor de fundo branca */
+    border-radius: 50%; /* Borda arredondada */
+    cursor: pointer;
+}
+
+.photo-upload-profile label img {
+    width: 100px; /* Largura da imagem */
+    height: 100px; /* Altura da imagem */
+    border-radius: 50%; /* Borda arredondada */
+}
+
+button.edit-password {
+padding: 10px 20px;
+  cursor: pointer;
+  background-color: #5271FF;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}

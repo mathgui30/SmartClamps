@@ -1,0 +1,101 @@
+.reports-container {
+    background-color: #ffffff;
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #0000ff;
+    border-radius: 4px;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .seta-volta {
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+  .logo img {
+    max-height: 50px;
+    width: auto;
+  }
+
+  @media (max-width: 768px) {
+    .logo img {
+      max-height: 30px;
+    }
+  }
+
+  .linha-separadora {
+    height: 1px;
+    background-color: #cccccc;
+    margin: 20px 0; /* Espaçamento acima e abaixo da linha */
+  }
+
+  .titulo-relatorio {
+    font-size: 24px;
+    text-align: left; /* Alinha o título à esquerda */
+    margin-bottom: 20px;
+  }
+
+  .tabs {
+    display: flex;
+    justify-content: start; /* Alinha os botões à esquerda */
+    margin-bottom: 20px;
+  }
+
+  .tab {
+    padding: 10px 20px;
+    border: 1px solid #cccccc;
+    cursor: pointer;
+    background-color: #eeeeee;
+    margin-right: 5px; /* Espaçamento entre os botões */
+  }
+
+  .tab:hover {
+    background-color: #ddd;
+  }
+
+  .tab.active {
+    background-color: #dddddd;
+  }
+
+  .filtro select {
+    padding: 10px;
+    border: 1px solid #cccccc;
+    margin-bottom: 20px;
+  }
+
+  .container-tabela {
+    overflow: auto;
+  }
+
+  .tabela-relatorio .cabecalho-tabela {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #eeeeee;
+    font-weight: bold;
+  }
+
+  .linha-tabela {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Adicionado para alinhar os itens verticalmente */
+    padding: 10px;
+    border-bottom: 1px solid #cccccc;
+  }
+
+  .status {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .status.erro {
+    color: red;
+  }

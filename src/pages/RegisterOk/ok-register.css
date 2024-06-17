@@ -1,0 +1,52 @@
+.container-ok-regis {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 80%; /* Tornando o container responsivo */
+    max-width: 600px; /* Limitando a largura máxima */
+}
+
+.header-ok-regis {
+    margin-bottom: 20px;
+}
+
+.logo-ok-reg img {
+    max-width: 100%; /* Fazendo a imagem responsiva */
+    height: auto; /* Mantendo a proporção */
+    box-shadow: none; /* Removendo sombra anterior */
+    border: none; /* Removendo bordas anteriores */
+    padding: 0; /* Removendo padding anterior */
+}
+
+.additional-image {
+    max-width: 100%; /* Fazendo a imagem adicional responsiva */
+    height: auto; /* Mantendo a proporção */
+}
+
+.message {
+    margin-top: 20px;
+}
+
+.checkmark img {
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin: auto;
+}
+
+.button-ok-reg {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-ok-reg:hover {
+    background-color: #45a049;
+}

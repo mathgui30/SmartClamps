@@ -1,0 +1,56 @@
+.relatorios-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 1200px;
+  background-color: #F5F8FF; /* Cor de fundo */
+  padding: 20px; /* Espaçamento interno */
+  box-sizing: border-box; /* Inclui padding na altura e largura total */
+  box-shadow: 6px 6px 6px rgba(0,0,0,0.2);
+}
+  
+.title-reports {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: #1B244E; /* Cor do texto */
+}
+  
+.table-container {
+  width: 100%; /* Ajusta conforme necessário */
+  margin-top: 5%;
+}
+
+.buttons-reports {
+  display: flex;
+  flex-direction: row;
+  gap: 10px; 
+}
+  
+.toggle-button-reports {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  width: 200px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  margin-top: 40px;
+  font-size: 16px;
+}
+  
+.toggle-button-reports:hover {
+  background-color: #FFFFFF ;
+  color: #5271FF ;
+}
+
+.toggle-button-reports.active {
+  color: #314290;
+  background-color: #FFFFFF;
+  border-bottom: 4px solid #5271FF; /* Border bottom color */
+}
+  
+.MUIDataTableHeadCell {
+  color: #7D7B97; /* Altera a cor do texto das células do cabeçalho */
+  text-transform: none; /* Impede que o texto seja convertido para maiúsculas */
+}

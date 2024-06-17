@@ -1,0 +1,95 @@
+.header-container-register {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.back-arrow-register {
+  display: flex;
+  position: relative;
+  margin-top: 2%;
+  margin-left: 2%;
+  font-size: 25px;
+  color: black;
+  cursor: pointer;
+}
+
+.logo-register {
+  display: flex;
+  position: relative;
+  max-width: 15%;
+  margin: 1%;
+  margin-right: 3%;
+}
+
+.relatorios-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 1200px;
+    background-color: #F5F8FF; /* Cor de fundo */
+    padding: 20px; /* Espaçamento interno */
+    box-sizing: border-box; /* Inclui padding na altura e largura total */
+    box-shadow: 6px 6px 6px rgba(0,0,0,0.2);
+  }
+  
+  .title-register {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #1B244E; /* Cor do texto */
+  }
+  
+  .table-container {
+    width: 100%; /* Ajusta conforme necessário */
+    margin-top: 5%;
+  }
+  
+.buttons-register {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+  
+.toggle-button-register {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  width: 175px;
+  height: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  margin-top: 40px;
+  font-size: 13px;
+}
+  
+.toggle-button-register:hover {
+  background-color: #FFFFFF ;
+  color: #5271FF ;
+}
+
+.toggle-button-register.active {
+  color: #314290;
+  background-color: #FFFFFF;
+  border-bottom: 4px solid #5271FF; /* Border bottom color */
+}
+  
+.MUIDataTableHeadCell {
+  color: #7D7B97; /* Altera a cor do texto das células do cabeçalho */
+  text-transform: none; /* Impede que o texto seja convertido para maiúsculas */
+}
+
+.cadastra {
+  background-color: #5271FF !important
+}
+
+.cadastra:hover {
+  background-color: #FFFFFF !important ;
+  color: #5271FF !important ;
+}
+
+.profile-pic-container {
+  margin-bottom: 20px;
+}
